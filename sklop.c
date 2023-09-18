@@ -6,12 +6,11 @@
 
 int main(int argc, char *argv[]) {
 	
-	printf("Unesi broj ulaza logièkih sklopova: ");
+	printf("enter the number of logic circuit inputs: ");
 	int ulaz, kombinacija;
 	scanf("%d",&ulaz);
-	printf("Unio si %d\n", ulaz);
 	kombinacija=pow(2,ulaz);
-	printf("Ima kombinacija %d\n", kombinacija);
+	
 	
 	int a[kombinacija][ulaz];
 	int i,j;
@@ -22,9 +21,7 @@ int main(int argc, char *argv[]) {
 	
 	for (j=(ulaz-1);j>-1;j--){
 		stup++;
-		stupac=pow(2,stup);
-		printf("%d\n", stupac);
-		
+		stupac=pow(2,stup);		
 	for (i=0;i<kombinacija;i++){
 	if(brojac%stupac>=stupac/2)
 	a[i][j]=1;
