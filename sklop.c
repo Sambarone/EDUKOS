@@ -6,34 +6,34 @@
 
 int main(int argc, char *argv[]) {
 	
-	printf("enter the number of logic circuit inputs: ");
-	int ulaz, kombinacija;
-	scanf("%d",&ulaz);
-	kombinacija=pow(2,ulaz);
+	printf("Enter the number of logic circuit inputs: ");
+	int enterance, combination;
+	scanf("%d",&enterance);
+	combination=pow(2,enterance);
 	
 	
-	int a[kombinacija][ulaz];
+	int a[combination][enterance];
 	int i,j;
-	int stupac=0;
-	int brojac=0;
-	int stup=0;
+	int column=0;
+	int counter=0;
+	int file=0;
 	
 	
-	for (j=(ulaz-1);j>-1;j--){
-		stup++;
-		stupac=pow(2,stup);		
-	for (i=0;i<kombinacija;i++){
-	if(brojac%stupac>=stupac/2)
+	for (j=(enterance-1);j>-1;j--){
+		file++;
+		column=pow(2,file);		
+	for (i=0;i<combination;i++){
+	if(counter%column>=column/2)
 	a[i][j]=1;
 	else 
 	a[i][j]=0;
-		brojac++;
+		counter++;
 		}
 		}
 	
 	
-	for (i=0;i<kombinacija;i++){
-		for (j=0;j<ulaz;j++){
+	for (i=0;i<combination;i++){
+		for (j=0;j<enterance;j++){
 			printf("%d\t", a[i][j]);
 		}
 		printf("\n");
