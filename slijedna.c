@@ -6,13 +6,21 @@
 
 int main(int argc, char *argv[]) {
 	
-	int i=5;
-	int p=i++;
-	//printf("%d\n",p);
+	float x;
+	float f;
 	
-	int j=3;
-	int k=++j;
-	printf("%d\n",k);
+	printf("Unesi neki broj: ");
+	scanf("%d",&x);
+	
+	if(x<0)
+	f=pow(x,2);
+	else if (x=0)
+	f=0;
+	else 
+	f=sqrt(x);
+	
+	
+	
 	
 	return 0;
 }

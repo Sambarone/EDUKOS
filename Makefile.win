@@ -1,15 +1,15 @@
-# Project: Zadaca_Jakob
+# Project: 20.12. For_petlja
 # Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = jakob_zadaca.o Zad2ak.o zad13.o zad14.o
-LINKOBJ  = jakob_zadaca.o Zad2ak.o zad13.o zad14.o
+OBJ      = 20.12.for.o
+LINKOBJ  = 20.12.for.o
 LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
-BIN      = Zadaca_Jakob.exe
+BIN      = "20.12. For_petlja.exe"
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
@@ -24,14 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-jakob_zadaca.o: jakob_zadaca.c
-	$(CC) -c jakob_zadaca.c -o jakob_zadaca.o $(CFLAGS)
-
-Zad2ak.o: Zad2ak.c
-	$(CC) -c Zad2ak.c -o Zad2ak.o $(CFLAGS)
-
-zad13.o: zad13.c
-	$(CC) -c zad13.c -o zad13.o $(CFLAGS)
-
-zad14.o: zad14.c
-	$(CC) -c zad14.c -o zad14.o $(CFLAGS)
+20.12.for.o: 20.12.for.c
+	$(CC) -c 20.12.for.c -o 20.12.for.o $(CFLAGS)

@@ -5,18 +5,11 @@
 
 int main(int argc, char *argv[]) {
 			
-		/*	int a; 
-		printf("Unesi broj sekundi:"); 
-		scanf("%d", &a); 
-		 
-		int b=a/3600; 
-		int c=(a-3600*b)/60; 
-		int d=a%60; 
-		 
-		printf("Broj %d sati, %d minute i %d sekunde",b,c,d); 
-*/
-		//zad();
-		//zad13();
-		zad14();
+	int a,b,c;
+	a=1;
+	b=2;
+	c=3;
+	a:=b;
+	printf("%d",a);
 			return 0;
 }
