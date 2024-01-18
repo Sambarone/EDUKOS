@@ -8,7 +8,13 @@ int main(int argc, char *argv[]) {
 		for (i=1;i<=10;i++)
 		{
 			for (j=1;j<=10;j++){
-				printf("%d\t",i*j);
+				if(i==j){
+					printf("%c\t",'X');
+				}
+				else {
+						printf("%d\t",i*j);
+				}
+		
 			}
 			printf("\n");
 		}
