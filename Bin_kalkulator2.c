@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 	int n, bin;
 	bin=0;
 	int i=0;
-	printf("Unesi neki broj");
+	printf("Unesi dec neki broj");
 	scanf("%d",&n);
 	while(n>0)
 	{

@@ -3,6 +3,11 @@ int mobitel(){
 	n=0;
 	printf("Unesi neki broj ");
 	scanf("%d",&n);
+	
+	
+	
+	
+	
 	while(n<99){
 	printf("Unesi neki broj ");
 	scanf("%d",&n);	
