@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* Program traži da u polje unesemo 5 cijelih brojeva. 
+Nakon toga program ispisuje koji je 
+broj najbliži aritmetièkoj sredini upisanih brojeva. */
 
 int main(int argc, char *argv[]) {
 	int i;

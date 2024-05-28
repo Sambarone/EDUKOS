@@ -1,6 +1,6 @@
 [Project]
-FileName=Polja_24_5.dev
-Name=Polja_24_5
+FileName=Polja_24_5_03.dev
+Name=Polja_24_5_03
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=polja_23_5_2024.c
+FileName=polje23_5_3.c
 CompileCpp=0
 Folder=
 Compile=1
