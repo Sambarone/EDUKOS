@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* 3.	Uèitati 10 brojeva u a polje nakon toga kreirati polje b 
+koje æe imati 5 èlanova koji æe se sastojati od umnoška èlanova prvog polja 
+ali tako da b[0]=a[0]*a[9]; b[1]=a[1]*a[8] …. itd
+*/
 void unos(int a[], int n);
 void zbroj(int a[],int b[],int n);
 void ispis(int a,int n);
